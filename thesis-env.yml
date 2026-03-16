@@ -1,0 +1,24 @@
+name: thesis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - matplotlib
+  - pandas
+  - jupyterlab
+  - numpy
+  - pyyaml
+  - joblib
+  - seaborn
+  - requests
+  - scipy
+  - scikit-learn
+  - tqdm
+  - ipykernel
+  - petsc
+  - petsc4py
+  - pip
+  - pip:
+      - boruta==0.4.3
+      - shap==0.50.0
+prefix: /Users/salimdaoud/miniforge3/envs/thesis

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+miniforge3/
+.env/
+
+# Data (raw / large files)
+data/raw/
+data/bench/
+data/raw_ssmc/
+data/interim/
+data/matrices_new
+data/m/
+data/matrices/
+suitesparse_matrices/
+urls.txt
+
+# macOS
+.DS_Store
+
